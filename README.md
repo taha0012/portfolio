@@ -8,6 +8,8 @@ A sample readme for the Algonquin College Graophic Design program to match the v
 
 ---
 
+## Contributors
+
 - Mio Tahara <hello@taharamio.com>
 
 ---
