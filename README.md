@@ -17,3 +17,5 @@ A sample readme for the Algonquin College Graophic Design program to match the v
 ##License & copyright
 
 © Mio Tahara, Algonquin College Graphic Design.
+
+Licensed under the [MIT License](LICENSE).
