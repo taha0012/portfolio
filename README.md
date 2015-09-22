@@ -8,6 +8,10 @@ A sample readme for the Algonquin College Graophic Design program to match the v
 
 ---
 
+- Mio Tahara <hello@taharamio.com>
+
+---
+
 ##License & copyright
 
 © Mio Tahara, Algonquin College Graphic Design.
