@@ -6,9 +6,9 @@ image: artwork1.jpg
 
 sketches
 
- -![sketche1](sketches1.jpg)
- -![sketche2](sketches2.jpg)
- -![sketche3](sketches3.jpg)
+ 1. ![sketche1](sketches1.jpg)
+ 2. ![sketche2](sketches2.jpg)
+ 3. ![sketche3](sketches3.jpg)
 
 description: The consept of this work is...
 
