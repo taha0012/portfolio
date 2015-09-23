@@ -10,6 +10,6 @@ sketches
  2. ![sketche2](sketches2.jpg)
  3. ![sketche3](sketches3.jpg)
 
-description: The consept of this work is...
+description:The-consept-of-this-work-is...
 
-used adobe applications: Adobe Illustrator.
+used-adobe-applications:Adobe-Illustrator.
