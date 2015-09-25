@@ -33,10 +33,10 @@ html{
 .main{
 	width: 90%;
 	margin-right: 5%;
+	margin-left: 5%;
 }
 
 main img{
-	float:left;
 	clear:both;
 }
 
@@ -162,11 +162,7 @@ header{
 	border-top: 0;
 	font-size: 100%;
 }
-/*
-.nav-top{
-	float: right;
-	margin-right: 5%;
-}*/
+
 
 h1{
 	clear: both;
@@ -192,7 +188,21 @@ header{
 	width: 75%;
 	margin-top: 50px;
 }
+.home img{
+	float: right;
+	width: 90%;
+	margin: 0 0 2rem 1rem;
+}
 
+.feature{
+	overflow: auto;
+	clear: both;
+}
+
+.feature h2,
+.feature p{
+	margin-left: 10%;
+}	
 .nav-top{
 	float: none;
 	clear: both;
@@ -217,24 +227,7 @@ header{
 .feature h2{
 	margin-top: 2.5rem;
 }
-@media only screen and (min-width: 40em){
 
-.home img{
-	float: right;
-	width: 90%;
-	margin: 0 0 2rem 1rem;
-}
-
-.feature{
-	overflow: auto;
-	clear: both;
-}
-
-.feature h2,
-.feature p{
-	margin-left: 20%;
-}	
-}
 
 /* Works*/
 #works, {
