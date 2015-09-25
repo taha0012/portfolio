@@ -186,22 +186,20 @@ header{
 	float: right;
 	width: 75%;
 	margin-top: 50px;
+	overflow: auto;
+	clear: both;
 }
+
+.main h2,
+.main p{
+	margin-left: 10%	;
+	}
 .home img{
 	float: right;
 	width: 90%;
 	margin: 0 0 2rem 1rem;
 }
 
-.feature{
-	overflow: auto;
-	clear: both;
-}
-
-.feature h2,
-.feature p{
-	margin-left: 10%;
-}	
 .nav-top{
 	float: none;
 	clear: both;
@@ -221,10 +219,6 @@ header{
 }
 
 /* Homepage */
-
-.feature h2{
-	margin-top: 2.5rem;
-}
 
 .copyright {
 	margin-left:50%;
