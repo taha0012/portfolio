@@ -47,6 +47,9 @@ overflow: hidden;
 }
     
 /* Navigation Styles */
+.nav{
+	overflow: auto;
+}
 
 .nav-btn,
 .nav-btn:link,
@@ -110,15 +113,8 @@ overflow: hidden;
 footer{
 	clear: both;
 }
-	
-@media only screen and (min-width: 25em){
-.nav{
-	overflow: auto;
-}
+@media only screen and (min-width: 20em){
 
-.nav a{
-	font-size: 80%;
-}
 
 .nav li{
 	float: left;
@@ -176,7 +172,7 @@ header{
 
 }
 
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 30em){
 header{
 	float: left;
 	width: 23%;
@@ -188,7 +184,21 @@ header{
 	width: 75%;
 	margin-top: 50px;
 }
+.home img{
+	float: right;
+	width: 90%;
+	margin: 0 0 2rem 1rem;
+}
 
+.feature{
+	overflow: auto;
+	clear: both;
+}
+
+.feature h2,
+.feature p{
+	margin-left: 10%;
+}	
 .nav-top{
 	float: none;
 	clear: both;
@@ -226,11 +236,3 @@ header{
 	margin-right: 5%;
 	float:left;
 }
-
-
-
-
-
-
-
-
