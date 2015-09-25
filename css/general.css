@@ -50,6 +50,7 @@ overflow: hidden;
 .nav{
 	margin: 1rem 0 0 1rem;
 	overflow: auto;
+	clear:both;
 }
 
 .nav-btn,
