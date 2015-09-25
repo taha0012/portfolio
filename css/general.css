@@ -47,6 +47,9 @@ overflow: hidden;
 }
     
 /* Navigation Styles */
+.nav{
+	overflow: auto;
+}
 
 .nav-btn,
 .nav-btn:link,
@@ -110,15 +113,8 @@ overflow: hidden;
 footer{
 	clear: both;
 }
-	
 @media only screen and (min-width: 25em){
-.nav{
-	overflow: auto;
-}
 
-.nav a{
-	font-size: 80%;
-}
 
 .nav li{
 	float: left;
@@ -176,7 +172,7 @@ header{
 
 }
 
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 30em){
 header{
 	float: left;
 	width: 23%;
