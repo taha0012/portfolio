@@ -145,7 +145,7 @@ footer{
 	clear: both;
 }
 	
-@media only screen and (min-width: 33em){
+@media only screen and (min-width: 25em){
 .nav{
 	overflow: auto;
 }
@@ -182,7 +182,7 @@ padding-top: 10rem;
 }
 }
 
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 27em){
 .nav{
 	background-color: #F9C;
 	text-align: center;
@@ -219,7 +219,7 @@ header{
 
 }
 
-@media only screen and (min-width: 75em){
+@media only screen and (min-width: 35em){
 header{
 	float: left;
 	width: 23%;
@@ -261,7 +261,7 @@ header{
 .feature h2{
 	margin-top: 2.5rem;
 }
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 40em){
 
 .home img{
 	float: right;
