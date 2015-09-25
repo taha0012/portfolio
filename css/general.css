@@ -231,7 +231,6 @@ header{
 .nav a:visited{
 	text-align: center;
 }	
-
 }
 
 /* Homepage */
@@ -243,7 +242,7 @@ header{
 
 .home img{
 	float: right;
-	width: 50%;
+	width: 90%;
 	margin: 0 0 2rem 1rem;
 }
 
