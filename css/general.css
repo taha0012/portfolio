@@ -36,8 +36,9 @@ html{
 	margin: 1rem auto;
 }
 
-img{
-	width: 100%;
+main img{
+	width: 80%;
+	float:left;
 }
 
 .hide-text {
