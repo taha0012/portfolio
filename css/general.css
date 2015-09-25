@@ -48,6 +48,7 @@ overflow: hidden;
     
 /* Navigation Styles */
 .nav{
+	margin: 1rem 0 0 1rem;
 	overflow: auto;
 }
 
@@ -84,7 +85,6 @@ overflow: hidden;
 	text-align:center;
 	color: #fff;
 	text-decoration: none;
-	background-color: #8F8F8F;
 	/* border-width || border-style || border-color */
 }
 
