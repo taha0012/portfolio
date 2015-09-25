@@ -223,6 +223,8 @@ header{
 	float: none;
 	clear: both;
 	max-height: 20rem;
+	background-color: #FFFFFF;
+	border-bottom: solid #D8D8D8;
 }
 
 .nav-top li{
