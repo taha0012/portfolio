@@ -30,27 +30,6 @@ html{
 		font-size: 1.5em;
 }
 }
-h1{
-	color: #505050;
-	width: 90%;
-	padding-left: 0.5rem;
-}
-
-h2{
-	width: 90%;
-	color: #7F7F7F;
-}
-
-h3{
-	width: 90%;
-	color: #464646;
-}
-
-.copyright{
-	width: 90%;
-	margin: 1rem auto;
-	text-align: center;
-}
 
 .main{
 	width: 90%;
