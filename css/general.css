@@ -39,7 +39,11 @@ html{
 main img{
 	clear:both;
 }
-
+@media only screen and (min-width: 25em){
+main img{
+	margin-top: 7rem;
+}
+}
 .hide-text {
 text-indent: 100%;
 white-space: nowrap;
@@ -115,20 +119,26 @@ overflow: hidden;
 footer{
 	clear: both;
 }
-@media only screen and (min-width: 20em){
+@media only screen and (min-width: 25em){
 
-
-.nav li{
-	float: left;
-	width: 25%;
+.nav{
+	background-color: #FFFFFF;
+	text-align: center;
 }
-	
+.nav li{
+	float: right;
+	width: 25%;
+}	
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
 	display: none;
 }
-
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	padding: 2rem;
+}
 .nav-top{
 	max-height: 40rem;
 }
@@ -141,43 +151,7 @@ header{
 }
 }
 
-@media only screen and (min-width: 27em){
-.nav{
-	background-color: #FFFFFF;
-	text-align: center;
-}
-
-.nav li{
-	display: inline-block;
-	float: none;
-	margin: 0;
-	width:auto;
-}
-.nav ul{
-	margin-top:10rem;
-}
-	
-.nav a, 
-.nav a:link,
-.nav a:visited{
-	border-top: 0;
-	font-size: 100%;
-}
-
-
-h1{
-	clear: both;
-	width: auto;
-	margin-left: 5%;
-}
-
-header{
-	overflow: auto;
-}
-
-}
-
-@media only screen and (min-width: 30em){
+@media only screen and (min-width: 35em){
 header{
 	float: left;
 	width: 23%;
@@ -202,6 +176,18 @@ header{
 	margin: 0 0 2rem 1rem;
 }
 
+.nav ul{
+	margin-top:5rem;
+}
+
+.nav li{
+	display: inline-block;
+	float: none;
+	margin: 0;
+	width:auto;
+}
+
+
 .nav-top{
 	float: none;
 	clear: both;
@@ -213,11 +199,11 @@ header{
 	margin-bottom:20px;
 }
 
-.nav a,
+.nav a, 
 .nav a:link,
 .nav a:visited{
-	text-align: center;
-}	
+	padding: 1rem;
+}
 }
 
 /* Homepage */
