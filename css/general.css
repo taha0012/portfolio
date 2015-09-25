@@ -108,7 +108,7 @@ overflow: hidden;
 }
 
 .nav-top[data-state="expanded"]{
-	max-height: 14rem;
+	max-height: 10rem;
 }
 
 
