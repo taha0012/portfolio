@@ -113,9 +113,6 @@ overflow: hidden;
 footer{
 	clear: both;
 }
-@media only screen and (min-width: 20em){
-
-
 .nav li{
 	float: left;
 	width: 25%;
@@ -136,7 +133,6 @@ header{
 	top:0;
 	left:0;
 	right:0;
-}
 }
 
 @media only screen and (min-width: 27em){
