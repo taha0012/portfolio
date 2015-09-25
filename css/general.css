@@ -50,7 +50,6 @@ overflow: hidden;
 .nav{
 	margin: 1rem 0 0 1rem;
 	overflow: auto;
-	clear:both;
 }
 
 .nav-btn,
@@ -104,6 +103,8 @@ overflow: hidden;
 	-webkit-transition: all 250ms linear;
 	transition: all 250ms linear;
 	overflow:hidden;
+	clear:both;
+
 }
 
 .nav-top[data-state="expanded"]{
