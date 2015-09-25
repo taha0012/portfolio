@@ -39,6 +39,7 @@ html{
 main img{
 	width: 80%;
 	float:left;
+	clear:both;
 }
 
 .hide-text {
