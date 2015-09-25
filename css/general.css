@@ -113,7 +113,7 @@ overflow: hidden;
 footer{
 	clear: both;
 }
-@media only screen and (min-width: 25em){
+@media only screen and (min-width: 20em){
 
 
 .nav li{
