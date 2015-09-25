@@ -224,13 +224,10 @@ header{
 	margin-left:50%;
 }
 /* Works*/
-#works, {
-	padding: 4.5rem 20%;
-	overflow: hidden;
-}
 
 .artwork {
-	width: 30%;
+	width: 35%;
+	margin-left: 10%;
 	margin-right: 5%;
 	float:left;
 }
