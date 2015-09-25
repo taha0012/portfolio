@@ -281,9 +281,7 @@ header{
 }
 
 /* Works*/
-#content1,
-#content2,
-#content3 {
+#works, {
 	padding: 4.5rem 20%;
 	overflow: hidden;
 }
