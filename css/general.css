@@ -81,16 +81,22 @@ overflow: hidden;
 	background: #ccc url('../images/nav-close.svg') no-repeat center center;
 }
 
-.nav a, 
+.nav a,
+.nav p, 
 .nav a:link,
 .nav a:visited{
 	display: block;
 	padding: 1rem;
 	text-align:center;
-	color: #5A5A5A;
 	text-decoration: none;
 	/* border-width || border-style || border-color */
 }
+.nav a,
+.nav a:link,
+.nav a:visited{
+	color: #5A5A5A;
+}
+
 
 .nav a:hover,
 .nav a:focus,
@@ -126,9 +132,10 @@ footer{
 	text-align: center;
 }
 .nav li{
-	float: right;
+	float: left;
 	width: 25%;
-}	
+}
+
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
