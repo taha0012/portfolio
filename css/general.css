@@ -225,11 +225,17 @@ header{
 	margin-left:50%;
 }
 /* Works*/
-
 .artwork {
-	width: 35%;
+	width: 80%;
 	margin-left: 10%;
 	margin-right: 5%;
 	margin-top:1rem;
+	margin-bottom: 1.5rem;
 	float:left;
+}
+@media only screen and (min-width: 40em){
+
+.artwork {
+	width: 35%;
+}
 }
