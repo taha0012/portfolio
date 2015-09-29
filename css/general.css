@@ -37,19 +37,12 @@ main{
 	margin-left: 5%;
 }
 
+main img{
+	width:80%;
+	float: left;
+	margin-left:10%;
+}
 
-main img{
-	width:60%;
-	margin-left:15%;
-	margin-bottom:2rem;
-	float:left;
-	clear:both;
-}
-@media only screen and (min-width: 25em){
-main img{
-	margin-top: 7rem;
-}
-}
 .hide-text {
 text-indent: 100%;
 white-space: nowrap;
@@ -77,11 +70,6 @@ overflow: hidden;
 	/* background-color || background-image || background-repeat || background-position*/
 }
 
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active{
-	background-color: #ccc;
-}
 
 .nav-btn[data-state="active"] {
 	background: #ccc url('../images/nav-close.svg') no-repeat center center;
@@ -107,7 +95,7 @@ overflow: hidden;
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	background-color: #000000;
+	color: #000000;
 }
 
 
@@ -152,7 +140,9 @@ footer{
 	width: 25%;
 }
 
-
+main img{
+	margin-top: 7rem;
+}
 
 .nav-btn,
 .nav-btn:link,
@@ -165,7 +155,7 @@ footer{
 	padding: 2rem;
 }
 .nav-top{
-	max-height: 40rem;
+	max-height: 5rem;
 }
 
 header{
@@ -186,8 +176,8 @@ header{
 
 .main{
 	float: right;
-	width: 75%;
-	margin-top: 50px;
+	width: 70%;
+	margin-top: 15px;
 	overflow: auto;
 	clear: both;
 }
@@ -203,13 +193,21 @@ header{
 .main a{
 	color: #FFF;
 }
-	 
-.home img{
-	float: right;
-	width: 70%;
-	margin-right: 10%;
-	margin-top:-10%;
+main img{
+	margin-top: 0rem;
 }
+
+.background{
+	margin-bottom:2rem;
+	width:100%;
+	margin-top:0rem;
+	float:left;
+	clear:both;
+	padding: 2rem;
+	background-color: #FFF;
+	margin-bottom: 1rem;
+} 
+
 
 .nav li{
 	display: inline-block;
@@ -223,6 +221,9 @@ header{
 	float: none;
 	clear: both;
 	background-color: #FFFFFF;
+	max-height: 60rem;
+}
+
 }
 
 .nav-top li{
@@ -250,6 +251,9 @@ header{
 	margin-top:1rem;
 	margin-bottom: 1.5rem;
 	float:left;
+}
+.artwork img{
+	margin-bottom:1rem;
 }
 @media only screen and (min-width: 40em){
 
