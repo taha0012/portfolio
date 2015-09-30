@@ -120,11 +120,12 @@ overflow: hidden;
 }
 
 .nav li img{
-	width: 80%;
 	float:left;
-	margin-left:10%;
+	margin-left:27%;
 	margin-top:3%;
 	margin-bottom:30px;
+	max-width: 4.5rem;
+}
 }
 footer{
 	clear: both;
@@ -149,10 +150,10 @@ main img{
 .nav-btn:visited{
 	display: none;
 }
-.nav a, 
+.nav a,
 .nav a:link,
 .nav a:visited{
-	padding: 2rem;
+	margin-top: 1rem;
 }
 .nav-top{
 	max-height: 5rem;
@@ -209,6 +210,7 @@ main img{
 } 
 
 
+
 .nav li{
 	display: inline-block;
 	float: none;
@@ -245,19 +247,53 @@ main img{
 }
 /* Works*/
 .artwork {
-	width: 80%;
-	margin-left: 10%;
 	margin-right: 5%;
-	margin-top:1rem;
+	margin-left: 5%;
 	margin-bottom: 1.5rem;
 	float:left;
 }
 .artwork img{
 	margin-bottom:1rem;
 }
+.artworkbox {
+	clear:both;
+}
+@media only screen and (min-width: 25em){
+.background2{
+	margin-bottom:-7rem;
+	width:100%;
+	margin-top:8rem;
+	float:left;
+	clear:both;
+	padding: 1rem;
+	background-color: #FFF;
+} 
+
+.artwork img {
+	margin-top: 1rem;
+}
+.artwork p {
+	margin-left: 10%;
+	clear:both;
+}
+.artwork {
+	width:90%;
+}
+
+@media only screen and (min-width: 35em){
+.background2{
+	margin-bottom:1.5rem;
+	width:100%;
+	margin-top:0rem;
+	float:left;
+	clear:both;
+	padding: 1rem;
+	background-color: #FFF;
+} 
+}
 @media only screen and (min-width: 40em){
 
 .artwork {
-	width: 35%;
+	width: 40%;
 }
 }
