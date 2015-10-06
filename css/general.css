@@ -40,6 +40,7 @@ main{
 main img{
 	width:80%;
 	float: left;
+	max-height: 25rem;
 	margin-left:10%;
 }
 
@@ -297,4 +298,4 @@ main img{
 .artwork {
 	width: 40%;
 }
-}
+}F
