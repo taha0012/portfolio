@@ -151,10 +151,6 @@ footer{
 	width: 25%;
 }
 
-main img{
-	margin-top: 7rem;
-}
-
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -177,8 +173,8 @@ header{
 }
 .background{
 	margin-top:8rem;
+	margin-bottom:-7rem;
 } 
-}
 
 @media only screen and (min-width: 35em){
 header{
@@ -239,8 +235,6 @@ main img{
 	max-width: 12rem;
 }
 
-}
-
 .nav-top li{
 	display: block;
 	margin-bottom:20px;
@@ -255,9 +249,6 @@ main img{
 
 /* Homepage */
 
-.copyright {
-	margin-left:50%;
-}
 /* Works*/
 .artwork {
 	margin-right: 5%;
@@ -296,7 +287,6 @@ main img{
 	margin-bottom:-7rem;
 	margin-top:8rem;
 } 
-
 @media only screen and (min-width: 35em){
 .background2{
 	margin-bottom:1.5rem;
