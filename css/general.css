@@ -127,7 +127,16 @@ overflow: hidden;
 	margin-bottom:30px;
 	max-width: 4.5rem;
 }
-}
+.background{
+	margin-bottom:2rem;
+	width:100%;
+	margin-top:0rem;
+	float:left;
+	clear:both;
+	padding: 2rem;
+	background-color: #FFF;
+} 
+
 footer{
 	clear: both;
 }
@@ -166,6 +175,9 @@ header{
 	left:0;
 	right:0;
 }
+.background{
+	margin-top:8rem;
+} 
 }
 
 @media only screen and (min-width: 35em){
@@ -200,14 +212,13 @@ main img{
 }
 
 .background{
-	margin-bottom:2rem;
 	width:100%;
 	margin-top:0rem;
 	float:left;
 	clear:both;
 	padding: 2rem;
 	background-color: #FFF;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 } 
 
 
@@ -260,17 +271,17 @@ main img{
 .artworkbox {
 	clear:both;
 }
-@media only screen and (min-width: 25em){
+
 .background2{
-	margin-bottom:-7rem;
+	margin-bottom:0rem;
 	width:100%;
-	margin-top:8rem;
+	margin-top:1rem;
 	float:left;
 	clear:both;
 	padding: 1rem;
 	background-color: #FFF;
 } 
-
+@media only screen and (min-width: 25em){
 .artwork img {
 	margin-top: 1rem;
 }
@@ -281,6 +292,10 @@ main img{
 .artwork {
 	width:90%;
 }
+.background2{
+	margin-bottom:-7rem;
+	margin-top:8rem;
+} 
 
 @media only screen and (min-width: 35em){
 .background2{
@@ -298,4 +313,4 @@ main img{
 .artwork {
 	width: 40%;
 }
-}F
+}
