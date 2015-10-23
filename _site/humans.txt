@@ -1,0 +1,30 @@
+humanstxt.org
+
+# TEAM
+
+Developer & Designer: Mio Tahara <hello@taharamio.com>
+Site: http://taharamio.com
+GitHub: https://github.com/taha0012
+Location: Ottawa, Canada
+
+# THANKS
+
+To all the awesome people who helped me.
+
+---
+
+# TECHNOLOGY
+
+## Software
+- Adobe Dreamweaver CC 2015
+- Git + GitHub
+- Markdown
+
+# Hosting
+
+-Cloud Flare <https://www.cloudflare.com/>
+
+# Site
+
+Last update: 2015/9/29
+Standards: HTML5, CSS3
