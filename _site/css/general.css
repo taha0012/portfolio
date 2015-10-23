@@ -276,8 +276,10 @@ main img{
 	margin-bottom: 1.5rem;
 	float:left;
 }
-.artwork img{
-	margin-bottom:1rem;
+.artwork img:hover,
+.artwork img:focus,
+.artwork img:active{
+	opacity: 0.5;
 }
 .artworkbox {
 	clear:both;
