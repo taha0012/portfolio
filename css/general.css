@@ -33,6 +33,10 @@ h2 {
 	font-family:Avenir, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #c97c29;
 }
+
+.current {
+	background-color: red;
+}
 	
 @media only screen and (min-width: 100em){
 html{
