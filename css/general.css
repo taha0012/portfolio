@@ -119,8 +119,9 @@ overflow: hidden;
 .nav a:focus,
 .nav a:active{
 	color: #bc6028;
-	font-size: 24px;
+	font-weight:500;
 }
+
 	/* Toggle Nav*/
 
 .nav-top{
