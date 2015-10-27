@@ -33,7 +33,8 @@ h2 {
 	font-family:Avenir, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #c97c29;
 }
-	
+
+
 @media only screen and (min-width: 100em){
 html{
 		font-size: 1.5em;
@@ -118,6 +119,7 @@ overflow: hidden;
 .nav a:focus,
 .nav a:active{
 	color: #bc6028;
+	font-size: 24px;
 }
 	/* Toggle Nav*/
 

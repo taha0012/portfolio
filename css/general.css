@@ -34,10 +34,7 @@ h2 {
 	color: #c97c29;
 }
 
-.current {
-	background-color: red;
-}
-	
+
 @media only screen and (min-width: 100em){
 html{
 		font-size: 1.5em;
@@ -122,6 +119,7 @@ overflow: hidden;
 .nav a:focus,
 .nav a:active{
 	color: #bc6028;
+	font-size: 24px;
 }
 	/* Toggle Nav*/
 
