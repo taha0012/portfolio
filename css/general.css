@@ -13,7 +13,6 @@ html{
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	background-color: #ede0c2;
-	/*background-image:url(../images/background-image.jpg);	*/
 }
 
 /* CSS */
@@ -22,7 +21,7 @@ html, body{
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding: 0;
 	width: 100%;
-	min-width: 15rem;
+	min-width: 20rem;
 }
 h1 {
 	font-family:Avenir, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,7 +36,7 @@ h2 {
 
 @media only screen and (min-width: 100em){
 html{
-		font-size: 1.5em;
+	font-size: 1.5em;
 }
 }
 
@@ -52,6 +51,9 @@ main{
 	text-decoration:none;
 }
 
+.background p{
+	line-height: 19px;
+}
 .main a:hover,
 .main a:focus,
 .main a:active{
@@ -65,36 +67,12 @@ main img{
 	margin-left:10%;
 }
 
-.hide-text {
-text-indent: 100%;
-white-space: nowrap;
-overflow: hidden;
-}
-
-
 /* Navigation Styles */
 .nav{
-	margin: 1rem 0 0 1rem;
+	margin: 1rem 1rem 0 1rem;
 	overflow: auto;
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited{
-	display: block;
-	height: 40px;
-	width: 40px;
-	top: 10px;	
-	right: 5%;
-	
-	border-radius: 20px;
-	background: #fff url('../images/nav-icon.svg') no-repeat center center;
-	/* background-color || background-image || background-repeat || background-position*/
-}
-
-
-.nav-btn[data-state="active"] {
-	background: #ccc url('../images/nav-close.svg') no-repeat center center;
+	background-color: #FFFFFF;
+	text-align: center;
 }
 
 .nav a,
@@ -125,18 +103,20 @@ overflow: hidden;
 	/* Toggle Nav*/
 
 .nav-top{
-	max-height: 0;
-	-moz-transition: all 250ms linear;
-	-o-transition: all 250ms linear;
-	-webkit-transition: all 250ms linear;
-	transition: all 250ms linear;
 	overflow:hidden;
 	clear:both;
-
+	max-height: 5rem;
 }
 
-.nav-top[data-state="expanded"]{
-	max-height: 10rem;
+.nav li{
+	float: left;
+	width: 24%;
+}
+.nav li img,
+.nav a,
+.nav a:link,
+.nav a:visited{
+	margin-top: 1rem;
 }
 
 .nav li img{
@@ -159,7 +139,7 @@ overflow: hidden;
 .backgroundtitle{
 	margin-bottom:1rem;
 	width:100%;
-	margin-top:0rem;
+	margin-top:1rem;
 	float:left;
 	clear:both;
 	padding: 1rem;
@@ -173,29 +153,9 @@ footer{
 }
 @media only screen and (min-width: 25em){
 
-.nav{
-	background-color: #FFFFFF;
-	text-align: center;
-}
-.nav li{
-	float: left;
-	width: 25%;
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited{
-	display: none;
-}
-.nav li img,
-.nav a,
-.nav a:link,
-.nav a:visited{
-	margin-top: 1rem;
-}
-.nav-top{
-	max-height: 5rem;
-}
+.backgroundtitle{
+	margin-top:7rem;
+} 
 
 header{
 	position:fixed;
@@ -203,13 +163,9 @@ header{
 	left:0;
 	right:0;
 }
-.background{
-	margin-top:8rem;
-	margin-bottom:-7rem;
-} 
+
 footer{
-	padding-top:8rem;
-	margin-left:15px;
+	margin-left:20px;
 }
 }
 
@@ -250,6 +206,10 @@ main img{
 	padding: 2rem;
 	background-color: #FFF;
 	margin-bottom: 2rem;
+} 
+.backgroundtitle{
+	margin-bottom:1rem;
+	margin-top:0rem;
 } 
 
 
