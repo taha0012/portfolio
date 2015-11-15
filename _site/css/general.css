@@ -277,10 +277,7 @@ main img{
 .artwork {
 	width:90%;
 }
-.background2{
-	margin-bottom:-7rem;
-	margin-top:8rem;
-} 
+
 @media only screen and (min-width: 35em){
 .background2{
 	margin-bottom:1.5rem;
