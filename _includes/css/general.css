@@ -69,7 +69,7 @@ main img{
 
 /* Navigation Styles */
 .nav{
-	margin: 1rem 20% 0 20%;
+	margin: 1rem 1rem 0 1rem;
 	overflow: auto;
 	background-color: #FFFFFF;
 	text-align: center;
@@ -236,6 +236,9 @@ main img{
 .nav a:link,
 .nav a:visited{
 	padding: 1rem;
+}
+.nav{
+		margin: 1rem 20% 0 20%;
 }
 }
 
