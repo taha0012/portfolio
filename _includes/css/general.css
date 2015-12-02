@@ -368,8 +368,10 @@ main img{
 
 /* Not found */
 .notfound{
-	width:50%;
+	background-color: #FFFFFF;
+	margin-left:10%;
 	float:left;
+	clear:left;
 }
 .notfound img{
 	float:right;
