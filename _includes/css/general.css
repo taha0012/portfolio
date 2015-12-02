@@ -370,7 +370,6 @@ main img{
 .notfound{
 	background-color: #FFFFFF;
 	float:left;
-	clear:left;
 }
 .notfound h1,
 .notfound p{
@@ -379,7 +378,7 @@ main img{
 
 .notfound img{
 	float:right;
-	margin-left: 40%;
+	margin-left: 60%;
 	width: 40%;
 	position: absolute;
 }
