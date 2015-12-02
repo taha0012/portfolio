@@ -379,6 +379,6 @@ main img{
 .notfound img{
 	float:right;
 	margin-left: 60%;
-	width: 40%;
+	height:100%;
 	position: absolute;
 }
