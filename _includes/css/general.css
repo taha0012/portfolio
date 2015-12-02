@@ -123,16 +123,7 @@ main img{
 	max-height: 100rem;
 	margin-left:10%;
 }
-/* Not found */
-.notfound{
-	width:50%;
-	float:left;
-}
-.notfound img{
-	float:right;
-	margin-left: 40%;
-	width: 40%;
-}
+
 /* Navigation Styles */
 .nav{
 	margin: 1rem 1rem 0 1rem;
@@ -373,4 +364,15 @@ main img{
 .artwork {
 	width: 40%;
 }
+}
+
+/* Not found */
+.notfound{
+	width:50%;
+	float:left;
+}
+.notfound img{
+	float:right;
+	margin-left: 40%;
+	width: 40%;
 }
