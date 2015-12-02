@@ -369,9 +369,12 @@ main img{
 /* Not found */
 .notfound{
 	background-color: #FFFFFF;
-	margin-left:10%;
 	float:left;
 	clear:left;
+}
+.notfound h1,
+.notfound p{
+	margin-left:10%;
 }
 .notfound img{
 	float:right;
