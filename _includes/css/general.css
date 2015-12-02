@@ -230,7 +230,6 @@ header{
 	width: 23%;
 	clear: left;
 	max-width:18rem;
-	margin:0 2% 0 2%;
 }
 
 .main{
@@ -267,8 +266,6 @@ main img{
 	margin-top:0rem;
 } 
 
-
-
 .nav li{
 	display: inline-block;
 	float: none;
@@ -276,13 +273,13 @@ main img{
 	width:auto;
 }
 
-
 .nav-top{
 	float: none;
 	clear: both;
 	background-color: #FFFFFF;
 	max-height: 60rem;
 	max-width: 12rem;
+	margin:0 2% 0 2%;
 }
 
 .nav-top li{
