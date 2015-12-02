@@ -365,8 +365,12 @@ main img{
 	width: 40%;
 }
 }
-
+.notfound{
+	width:50%;
+	float:left;
+}
 .notfound img{
+	float:right;
 	margin-left: 40%;
-	width: 30%;
+	width: 40%;
 }
