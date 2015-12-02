@@ -375,11 +375,13 @@ main img{
 .notfound h1,
 .notfound p{
 	margin-left:10%;
+}
+.notfound h1{
 	margin-top:10%;
 }
 .notfound img{
 	float:right;
 	margin-left: 40%;
 	width: 40%;
-	position:relative;
+	position: fixed;
 }
