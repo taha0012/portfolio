@@ -367,6 +367,9 @@ main img{
 }
 
 /* Not found */
+.notdound {
+	clear:both;
+}
 .notfound h1,
 .notfound p{
 	margin-left:10%;
