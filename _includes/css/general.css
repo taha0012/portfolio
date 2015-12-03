@@ -367,8 +367,9 @@ main img{
 }
 
 /* Not found */
-.notdound {
+.notfound {
 	clear:both;
+	margin-top: 5%;
 }
 .notfound-left{
 	width: 50%;
