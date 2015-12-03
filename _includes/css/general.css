@@ -385,7 +385,6 @@ found h1{
 }
 .notfound img{
 	float:right;
-	margin-left: 60%;
 	height:100%;
 	position: absolute;
 }
