@@ -396,6 +396,11 @@ found h1{
 	color: #bc6028;
 	size: 24px;
 }
+.notfound a:hover,
+.notfound a:focus,
+.notfound a:active{
+	text-decoration: blink;
+}
 .notfound img{
 	float:right;
 	height:100%;
