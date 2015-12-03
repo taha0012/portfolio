@@ -375,9 +375,9 @@ main img{
 	width: 40%;
 	float:left;
 	margin-left:10%;
-	background-color:#FFFFFF;
+	background-color: rgba(255,255,255,.5);
 	border-radius:20px;
-	padding: 1rem;
+	padding: 1.5rem;
 }
 .notfound-right{
 	width: 40%;
