@@ -399,7 +399,7 @@ found h1{
 .notfound a:hover,
 .notfound a:focus,
 .notfound a:active{
-	text-decoration: blink;
+	 colour: #BCEEEF;
 }
 .notfound img{
 	float:right;
