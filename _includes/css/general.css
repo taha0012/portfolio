@@ -370,12 +370,16 @@ main img{
 .notdound {
 	clear:both;
 }
-.notfound h1,
-.notfound p{
+.notfound-left{
+	width: 50%;
+	float:left;
 	margin-left:10%;
-	width:50%;
 }
-.notfound h1{
+.notfound-right{
+	width: 40%;
+	float:right;
+}
+found h1{
 	margin-top:10%;
 }
 .notfound img{
