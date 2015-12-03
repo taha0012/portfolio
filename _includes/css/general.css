@@ -376,7 +376,8 @@ main img{
 	float:left;
 	margin-left:10%;
 	background-color:#FFFFFF;
-	border-radius:20px
+	border-radius:20px;
+	padding: 1rem;
 }
 .notfound-right{
 	width: 40%;
