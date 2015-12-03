@@ -391,6 +391,9 @@ found h1{
 .notfound p{
 	margin-top: 10px;
 }
+.notfound a{
+	text-decoration: none;
+}
 .notfound img{
 	float:right;
 	height:100%;
