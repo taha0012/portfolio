@@ -174,11 +174,10 @@ main img{
 }
 
 .nav li img{
-	margin-top:1rem;
-	margin-right:30%;
-	margin-left:25%;
+	padding: 2rem;
+	margin-left:15%;
 	float:left;
-	width:70%;
+	width:5rem;
 }
 .background{
 	margin-bottom:2rem;
