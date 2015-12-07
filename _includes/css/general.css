@@ -179,7 +179,8 @@ main img{
 	margin-right:auto;
 }
 .nav li img{
-	padding-bottom: 2rem;
+	align-self:center;
+	padding-bottom: 1rem;
 	float:left;
 	width:5rem;
 }
