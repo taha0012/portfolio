@@ -174,7 +174,9 @@ main img{
 }
 
 .nav li img{
-	margin-left:30%;
+	padding-bottom:2.5rem;
+	margin-right: 5%;
+	margin-left:25%;
 	float:left;
 	max-width: 4.5rem;
 }
