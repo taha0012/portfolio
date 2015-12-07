@@ -174,8 +174,8 @@ main img{
 }
 
 .nav li img{
+	align-items:center;
 	padding: 1rem;
-	margin-left:15%;
 	float:left;
 	width:5rem;
 }
