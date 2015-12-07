@@ -177,7 +177,7 @@ main img{
 	padding-bottom:2.5rem;
 	margin-right:30%;
 	margin-left:25%;
-	float:left;
+	float: none;
 	min-width: 4rem;
 	max-width: 4.5rem;
 }
