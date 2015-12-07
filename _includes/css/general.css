@@ -178,6 +178,7 @@ main img{
 	margin-left:27%;
 	margin-right:27%;
 	float:left;
+	min-width: 3rem;
 	max-width: 4.5rem;
 }
 .background{
