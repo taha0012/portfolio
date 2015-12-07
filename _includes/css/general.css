@@ -169,7 +169,7 @@ main img{
 .nav a,
 .nav a:link,
 .nav a:visited{
-	margin-top: 1rem;
+	margin-top: .75rem;
 }
 .centre{
 	display:block;
