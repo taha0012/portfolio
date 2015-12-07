@@ -297,7 +297,7 @@ main img{
 .nav a, 
 .nav a:link,
 .nav a:visited{
-	padding: 1rem;
+	padding: .75rem;
 }
 .nav{
 		margin: 1rem 0 0 2%;
