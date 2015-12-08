@@ -418,4 +418,6 @@ found h1{
 
 .skip-links a:focus {
   top: 0;
+  color: #bc6028;
+  text-decoration:none;
 }
