@@ -354,6 +354,7 @@ main img{
 .artwork {
 	width:90%;
 }
+}
 
 @media only screen and (min-width: 35em){
 .background2{
@@ -408,4 +409,8 @@ found h1{
 	float:right;
 	height:100%;
 	position: absolute;
+}
+
+.skip-links{
+	display:none;
 }
