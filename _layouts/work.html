@@ -14,8 +14,13 @@
         <link rel="author" href="{{site.baseurl}}humans.txt">
 	</head>
 <body>
-<header>
-		<nav class="nav nav-top">
+
+	<div class="skip-links">
+    	<a href="#main">Jump to main content</a>
+    </div>
+
+<header role="banner">
+		<nav class="nav nav-top" role="navigation">
                 <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/logo.svg" class="centre" alt="feature logo"></a>
 			<ul>
     			<li><a href="{{site.baseurl}}/">Home</a></li>
@@ -25,7 +30,7 @@
 		</nav>
 	</header>
 <body class="home"> 
-		<main class="main">
+		<main class="main" role="main" id="main">
 
 {{content}}
 </main>

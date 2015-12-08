@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
         <title>{% if page.title %}{{page.title}} · {% endif %}Mio Tahara's Portfolio - Japanese Graphic Designer - Ottawa Ontario</title>
 		<link href="{{site.baseurl}}/portfolio.css" rel="stylesheet">
-        <meta name="description" content="Information about Mio Tahara who is a designer from Algonquin College. Graphic designer who bore in Japan">
+        <meta name="description" content="{{page.description}}">
         <meta name="keywords" content="designer, algonquin college, japan">
         <meta name="author" content="a student from Japan, who studies graphic design in Algonquin college, Ottawa, Ontario.">
         <meta name="copyright" content="Mio Tahara's portfolio">
@@ -13,8 +13,8 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1" >
         <link rel="author" href="{{site.baseurl}}humans.txt">
 	</head>
-<header>
-		<nav class="nav nav-top">
+<header role="banner">
+		<nav class="nav nav-top" role="navigation">
                 <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/logo.svg" class="centre" alt="feature logo"></a>
 			<ul>
     			<li><a href="{{site.baseurl}}/">Home</a></li>
