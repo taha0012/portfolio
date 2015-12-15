@@ -31,6 +31,53 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+h1, .exa {
+  font-size: 1.3830rem;
+  line-height: 1.9500rem;
+}
+
+h2, .peta {
+  font-size: 1.2962rem;
+  line-height: 1.9500rem;
+}
+
+h3, .tera {
+  font-size: 1.2148rem;
+  line-height: 1.6250rem;
+}
+
+h4, .giga {
+  font-size: 1.1385rem;
+  line-height: 1.6250rem;
+}
+
+h5, .mega {
+  font-size: 1.0670rem;
+  line-height: 1.6250rem;
+}
+
+h6, .kilo, input, textarea {
+  font-size: 1.0000rem;
+  line-height: 1.3000rem;
+}
+
+small, .milli {
+  font-size: 0.9372rem;
+  line-height: 1.3000rem;
+}
+
+.micro {
+  font-size: 0.8784rem;
+  line-height: 1.3000rem;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+ol {
+  padding-left: 1.6em;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, main {
