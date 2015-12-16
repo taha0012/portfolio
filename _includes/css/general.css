@@ -31,6 +31,15 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+.yotta {
+  font-size: 1.5745rem;
+  line-height: 2.2750rem;
+}
+
+.zetta {
+  font-size: 1.4757rem;
+  line-height: 1.9500rem;
+}
 h1, .exa {
   font-size: 1.3830rem;
   line-height: 1.9500rem;
