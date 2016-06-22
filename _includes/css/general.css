@@ -271,11 +271,6 @@ header{
 footer{
 	margin-left:20px;
 }
-
-.nav li img{
-	float: right;
-	margin-left:30%;
-}
 }
 
 @media only screen and (min-width: 35em){

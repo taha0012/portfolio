@@ -154,13 +154,6 @@ header{
 footer{
 	margin-left:20px;
 }
-.nav li{
-	text-align: right;
-}
-.nav li img{
-	float: right;
-	margin-left:30%;
-}
 }
 
 @media only screen and (min-width: 35em){
@@ -170,6 +163,9 @@ header{
 	width: 23%;
 	clear: left;
 	max-width:18rem;
+}
+.nav li{
+	text-align: right;
 }
 
 .main{
