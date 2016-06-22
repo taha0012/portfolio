@@ -46,6 +46,10 @@ main{
 	margin-left: 5%;
 }
 
+main h1{
+	text-align: center;
+}
+
 .main a{
 	color: #bc6028;
 	text-decoration:none;
