@@ -186,8 +186,6 @@ main img{
 	overflow: auto;
 	background-color: #FFFFFF;
 	text-align: center;
-	border: solid 5px #FFFFFF;
-	border-radius: 50px;
 }
 
 .nav a,
