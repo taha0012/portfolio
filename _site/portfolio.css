@@ -70,7 +70,6 @@ main h1{
 }
 
 main img{
-	width:80%;
 	float: left;
 	max-height: 100rem;
 	margin-left:10%;
@@ -196,7 +195,6 @@ header{
 	margin-top: 0;
 	overflow: auto;
 	clear: both;
-	background-color: #c97c29
 }
 
 .main h1,
