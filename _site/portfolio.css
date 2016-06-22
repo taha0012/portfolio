@@ -168,10 +168,6 @@ footer{
 }
 @media only screen and (min-width: 25em){
 
-.backgroundtitle{
-	margin-top:7rem;
-} 
-
 header{
 	position:fixed;
 	top:0;
@@ -197,7 +193,7 @@ header{
 .main{
 	float: right;
 	width: 70%;
-	margin-top: 15px;
+	margin-top: 0;
 	overflow: auto;
 	clear: both;
 }
