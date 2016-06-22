@@ -188,6 +188,7 @@ main img{
 	float: left;
 	max-height: 100rem;
 	margin-left:10%;
+	clear: both;
 }
 
 /* Navigation Styles */
