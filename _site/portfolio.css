@@ -12,6 +12,7 @@ html{
 	-webkit-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	background-color: #ede0c2;
 }
 
 /* CSS */
@@ -35,24 +36,14 @@ h2 {
 
 @media only screen and (min-width: 100em){
 html{
-	font-size: 1.5745rem;
-	line-height: 2.35rem;
+	font-size: 1.5em;
 }
 }
 
-.main{
+main{
 	width: 90%;
 	margin-right: 5%;
 	margin-left: 5%;
-}
-
-.main h1{
-	text-align: center;
-}
-@media only screen and (min-width: 25em){
-.main h1{
-	text-align: left;
-}
 }
 
 .main a{
@@ -60,7 +51,7 @@ html{
 	text-decoration:none;
 }
 
-.main p{
+.background p{
 	line-height: 19px;
 }
 .main a:hover,
@@ -70,12 +61,11 @@ html{
 }
 
 main img{
+	width:80%;
 	float: left;
 	max-height: 100rem;
 	margin-left:10%;
-	clear: both;
 }
-
 
 /* Navigation Styles */
 .nav{
@@ -83,6 +73,8 @@ main img{
 	overflow: auto;
 	background-color: #FFFFFF;
 	text-align: center;
+	border: solid 5px #FFFFFF;
+	border-radius: 50px;
 }
 
 .nav a,
@@ -97,33 +89,6 @@ main img{
 	color: #c97c29;
 }
 
-.background{
-	margin-bottom:2rem;
-	width:100%;
-	margin-top:0rem;
-	float:left;
-	clear:both;
-	padding: 2rem;
-	background-color: #FFF;
-} 
-.backgroundtitle{
-	margin-bottom:1rem;
-	width:100%;
-	margin-top:1rem;
-	float:left;
-	clear:both;
-	padding: 1rem;
-	background-color: #FFF;
-} 
-
-@media only screen and (min-width: 25em){
-.nav a,
-.nav a:link,
-.nav a:visited{
-	text-align: right;
-	float: right;
-}
-}
 
 .nav a:hover,
 .nav a:focus,
@@ -154,9 +119,29 @@ main img{
 .nav li img{
 	padding-top:0.5rem;
 	padding-bottom:2.5rem;
-	float:right;
+	float:left;
+	margin-right: 5%;
+	margin-left:30%;
 	max-width: 4.5rem;
 }
+.background{
+	margin-bottom:2rem;
+	width:100%;
+	margin-top:0rem;
+	float:left;
+	clear:both;
+	padding: 2rem;
+	background-color: #FFF;
+} 
+.backgroundtitle{
+	margin-bottom:1rem;
+	width:100%;
+	margin-top:1rem;
+	float:left;
+	clear:both;
+	padding: 1rem;
+	background-color: #FFF;
+} 
 
 footer{
 	clear: both;
@@ -164,6 +149,10 @@ footer{
 	color: #6e6a2c;
 }
 @media only screen and (min-width: 25em){
+
+.backgroundtitle{
+	margin-top:7rem;
+} 
 
 header{
 	position:fixed;
@@ -184,13 +173,12 @@ header{
 	width: 23%;
 	clear: left;
 	max-width:18rem;
-	margin-left: 7%;
 }
 
 .main{
 	float: right;
-	width: 100%;
-	margin-top: 0;
+	width: 70%;
+	margin-top: 15px;
 	overflow: auto;
 	clear: both;
 }
@@ -203,7 +191,7 @@ header{
 	margin-bottom: 10px;
 }
 
-.main img{
+main img{
 	margin-top: 0rem;
 }
 
@@ -220,6 +208,8 @@ header{
 	margin-bottom:1rem;
 	margin-top:0rem;
 } 
+
+
 
 .nav li{
 	display: inline-block;
