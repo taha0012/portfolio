@@ -316,6 +316,19 @@ main img{
 	margin-top: 0rem;
 }
 
+.background{
+	width:100%;
+	margin-top:0rem;
+	float:left;
+	clear:both;
+	padding: 2rem;
+	background-color: #FFF;
+	margin-bottom: 2rem;
+} 
+.backgroundtitle{
+	margin-bottom:1rem;
+	margin-top:0rem;
+} 
 
 .nav li{
 	display: inline-block;
