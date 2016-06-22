@@ -242,7 +242,7 @@ main img{
 	margin-top:0rem;
 	float:left;
 	clear:both;
-	padding: 2rem;
+	padding: 1rem;
 	background-color: #FFF;
 } 
 .backgroundtitle{
@@ -251,7 +251,6 @@ main img{
 	margin-top:1rem;
 	float:left;
 	clear:both;
-	padding: 1rem;
 	background-color: #FFF;
 } 
 
@@ -275,6 +274,9 @@ header{
 
 footer{
 	margin-left:20px;
+}
+.nav li{
+	float: right;
 }
 }
 
@@ -313,7 +315,7 @@ main img{
 	margin-top:0rem;
 	float:left;
 	clear:both;
-	padding: 2rem;
+	padding: 1rem;
 	background-color: #FFF;
 	margin-bottom: 2rem;
 } 
