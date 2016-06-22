@@ -77,6 +77,7 @@ main img{
 	clear: both;
 }
 
+
 /* Navigation Styles */
 .nav{
 	margin: 1rem 1rem 0 1rem;
@@ -84,7 +85,6 @@ main img{
 	background-color: #FFFFFF;
 	text-align: center;
 	border: solid 5px #FFFFFF;
-	border-radius: 50px;
 }
 
 .nav a,
@@ -208,8 +208,6 @@ main img{
 	margin-bottom:1rem;
 	margin-top:0rem;
 } 
-
-
 
 .nav li{
 	display: inline-block;
