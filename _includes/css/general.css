@@ -174,7 +174,7 @@ main h1{
 	text-decoration:none;
 }
 
-.background p{
+.main p{
 	line-height: 19px;
 }
 .main a:hover,
@@ -261,24 +261,6 @@ main img{
 	margin-bottom:-1rem;
 }
 }
-.background{
-	margin-bottom:2rem;
-	width:100%;
-	margin-top:0rem;
-	float:left;
-	clear:both;
-	padding: 2rem;
-	background-color: #FFF;
-} 
-.backgroundtitle{
-	margin-bottom:1rem;
-	width:100%;
-	margin-top:1rem;
-	float:left;
-	clear:both;
-	padding: 1rem;
-	background-color: #FFF;
-} 
 
 footer{
 	clear: both;
