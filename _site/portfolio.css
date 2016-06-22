@@ -99,6 +99,25 @@ main img{
 	color: #c97c29;
 }
 
+.background{
+	margin-bottom:2rem;
+	width:100%;
+	margin-top:0rem;
+	float:left;
+	clear:both;
+	padding: 2rem;
+	background-color: #FFF;
+} 
+.backgroundtitle{
+	margin-bottom:1rem;
+	width:100%;
+	margin-top:1rem;
+	float:left;
+	clear:both;
+	padding: 1rem;
+	background-color: #FFF;
+} 
+
 @media only screen and (min-width: 25em){
 .nav a,
 .nav a:link,
