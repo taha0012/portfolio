@@ -123,6 +123,7 @@ main img{
 .nav a:link,
 .nav a:visited{
 	text-align: right;
+	float: right;
 }
 }
 
