@@ -12,6 +12,7 @@ html{
 	-webkit-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	background-color: #ede0c2;
 }
 
 /* CSS */
@@ -154,7 +155,11 @@ footer{
 	margin-left:20px;
 }
 .nav li{
+	text-align: right;
+}
+.nav li img{
 	float: right;
+	margin-left:30%;
 }
 }
 

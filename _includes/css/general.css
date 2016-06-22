@@ -125,6 +125,7 @@ html{
 	-webkit-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	background-color: #ede0c2;
 }
 
 /* CSS */
@@ -190,6 +191,7 @@ main img{
 	text-decoration: none;
 	font-size: 18px;
 	color: #c97c29;
+	margin-top: .75rem;
 }
 
 
@@ -212,11 +214,7 @@ main img{
 	float: left;
 	width: 33%;
 }
-.nav a,
-.nav a:link,
-.nav a:visited{
-	margin-top: .75rem;
-}
+
 .centre{
 	display:block;
 	margin-left:auto;
@@ -275,7 +273,11 @@ footer{
 	margin-left:20px;
 }
 .nav li{
+	text-align: right;
+}
+.nav li img{
 	float: right;
+	margin-left:30%;
 }
 }
 
