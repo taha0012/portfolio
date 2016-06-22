@@ -271,9 +271,7 @@ header{
 footer{
 	margin-left:20px;
 }
-.nav li{
-	text-align: right;
-}
+
 .nav li img{
 	float: right;
 	margin-left:30%;
@@ -332,6 +330,7 @@ main img{
 	float: none;
 	margin: 0;
 	width:auto;
+	text-align: right;
 }
 
 .nav-top{
