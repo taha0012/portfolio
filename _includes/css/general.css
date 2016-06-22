@@ -227,7 +227,7 @@ main img{
 .centre{
 	display:block;
 	margin-left:auto;
-	margin-right:0;
+	margin-right:auto;
 	margin-top:0rem;
 	margin-bottom:-1rem;
 }
@@ -288,6 +288,9 @@ header{
 	clear: left;
 	max-width:18rem;
 	margin-left: .8%;
+}
+.centre{
+	margin-right:0;
 }
 
 .main{
@@ -353,6 +356,7 @@ main img{
 .nav{
 		margin: 1rem 0 0 2%;
 }
+
 }
 @media only screen and (min-width: 45em){
 .nav{
